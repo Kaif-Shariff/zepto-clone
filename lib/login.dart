@@ -223,14 +223,31 @@ class _LoginScreenState extends State<LoginScreen> {
                                   fontSize: 20,
                                   fontWeight: FontWeight.w900),
                             ),
+                    ),
+                  ),
 
-                      // child: const Text(
-                      //   'Confirm',
-                      //   style: TextStyle(
-                      //       color: Colors.white,
-                      //       fontSize: 20,
-                      //       fontWeight: FontWeight.w900),
-                      // ),
+                  const SizedBox(height: 16),
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.black),
+                      onPressed: () {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const HomePage()),
+                        );
+                      },
+                      child: isLoading
+                          ? const CircularProgressIndicator()
+                          : const Text(
+                              'No OTP',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.w900),
+                            ),
                     ),
                   ), // Add some space between button and text field
                 ],
