@@ -1,16 +1,19 @@
-# clone
+# Internship Task
 
-A new Flutter project.
+- **Implemented OTP authentication with Firebase**
+- **Utilized Firestore Storage to store and fetch product images in app.**
 
-## Getting Started
+# Screenshots
 
-This project is a starting point for a Flutter application.
+## Enter your phone number
 
-A few resources to get you started if this is your first Flutter project:
+![otp](https://github.com/Kaif-Shariff/zepto-clone/assets/93507427/6d1afdcb-6a3d-4827-a944-61ad5a046ee8)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Verify OTP with sample SMS
+![verification](https://github.com/Kaif-Shariff/zepto-clone/assets/93507427/7dc5699a-43e4-4837-9cb1-0b8241333279)
+
+## Home Screen
+*Product detials such as image, product name & price is fetched from firebase*
+
+![home](https://github.com/Kaif-Shariff/zepto-clone/assets/93507427/d6e4b9dd-e94e-4532-8f86-1c1f424322cc)
