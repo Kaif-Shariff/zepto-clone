@@ -1,4 +1,5 @@
-# Internship Task
+# [Kodeinnovate](https://kodeinnovate.in/) Internship Task
+**Flutter + Firebase**
 
 - **Implemented OTP authentication with Firebase**
 - **Utilized Firestore Storage to store and fetch product images in app.**
